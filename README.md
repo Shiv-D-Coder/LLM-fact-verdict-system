@@ -175,12 +175,16 @@ Here are 10 sample claims you can use to test the system:
 
 **False Claims**
 5. "India has announced free electricity for all farmers starting July 2025."
+
 6. "The Indian government declared 2025 as a nationwide public holiday for National Milk Day."
+
 7. "A new national policy mandates AI tools in all government schools starting 2025."
 
 **Unverifiable Claims**
 8. "The Prime Minister hinted at a new welfare scheme during his visit to Kurukshetra."
+
 9. "The blind women's cricket team plans to play in Australia next year."
+
 10. "NCLT will clear all pending IBC cases by March 2025."
 
 For a full list of 15 sample questions with expected verdicts and reasoning, see [`data/sample_questions.json`](data/sample_questions.json).
