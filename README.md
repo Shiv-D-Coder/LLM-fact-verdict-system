@@ -165,13 +165,14 @@ asyncio.run(check_claim())
 
 ## Sample Claims for Testing
 
-Here are 10 sample claims you can use to test the system:
+Here are 3 sample claims per category:
 
 **True Claims**
 1. "Prime Minister paid tribute to the framers of the Constitution on Constitution Day."
+
 2. "CCRAS launched SIDDHI 2.0 to support innovation in the Ayurveda pharma sector."
+
 3. "CSIR-NIScPR and CSIR-NPL organized a curtain raiser event for the India International Science Festival 2025."
-4. "The Creative Minds of Tomorrow 2025 event concluded successfully with young creators presenting their work."
 
 **False Claims**
 
