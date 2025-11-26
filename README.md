@@ -174,6 +174,7 @@ Here are 10 sample claims you can use to test the system:
 4. "The Creative Minds of Tomorrow 2025 event concluded successfully with young creators presenting their work."
 
 **False Claims**
+
 5. "India has announced free electricity for all farmers starting July 2025."
 
 6. "The Indian government declared 2025 as a nationwide public holiday for National Milk Day."
@@ -181,6 +182,7 @@ Here are 10 sample claims you can use to test the system:
 7. "A new national policy mandates AI tools in all government schools starting 2025."
 
 **Unverifiable Claims**
+
 8. "The Prime Minister hinted at a new welfare scheme during his visit to Kurukshetra."
 
 9. "The blind women's cricket team plans to play in Australia next year."
