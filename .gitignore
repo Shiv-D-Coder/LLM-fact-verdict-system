@@ -1,0 +1,28 @@
+# General
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# DATA
+vector_store/

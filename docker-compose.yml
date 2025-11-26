@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  fact-checker:
+    build: .
+    container_name: artikate_fact_checker
+    ports:
+      - "8501:8501"               # Streamlit UI
+    volumes:
+      - vector_store:/app/vector_store   # Persist FAISS index & metadata
+    env_file:
+      - .env                         # Load OPENAI_API_KEY (and any other vars) at runtime
+
+volumes:
+  vector_store:
+    driver: local
