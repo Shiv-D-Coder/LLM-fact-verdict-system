@@ -4,13 +4,17 @@ import os
 import sys
 from pathlib import Path
 import json
-
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent / "src"))
-
-from pipeline import FactCheckPipeline
-from config import TOP_K_RETRIEVAL
-
+from src.pipeline import FactCheckPipeline
+from src.config import TOP_K_RETRIEVAL
+# Ensure spaCy model is available
+import spacy
+try:
+    spacy.load("en_core_web_sm")
+except OSError:
+    import spacy.cli
+    spacy.cli.download("en_core_web_sm")
+    
+    
 # Page configuration
 st.set_page_config(
     page_title="Fact Checker",
