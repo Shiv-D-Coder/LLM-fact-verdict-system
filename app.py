@@ -13,7 +13,7 @@ from config import TOP_K_RETRIEVAL
 
 # Page configuration
 st.set_page_config(
-    page_title="Fact Checker - Artikate Studio",
+    page_title="Fact Checker",
     # page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -116,7 +116,6 @@ with st.sidebar:
     - **GPT-4** for analysis
     - **75 PIB facts** + 5 KB documents
     
-    Built for **Artikate Studio**
     """)
 
 # Main content
